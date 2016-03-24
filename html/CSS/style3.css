@@ -1,0 +1,109 @@
+
+div{
+	height: 50px;
+	width: 250px;
+	border: 2px;
+	text-align:center;
+	
+	
+}
+
+#line{
+background-color:#d0d0d0;
+}
+
+#p1{
+font-family:cursive;
+}
+
+
+
+#scroll{
+float:right;
+}
+
+
+
+#headlinks{
+ 
+}
+
+
+
+.buttons{
+border:1px solid #f8f8f8;
+background-color:white;
+font-family:courier;
+
+
+
+}
+/*
+body {
+    background-image: url("/key2.gif");
+    background-repeat: no-repeat;
+}*/
+
+
+#one:hover
+{
+background-color:#ff7f50;
+color:white;
+box-shadow:5px 5px 5px #888888;
+
+font-size:115%;
+}
+
+#two:hover
+{
+background-color:#008282;
+color:white;
+box-shadow:5px 5px 5px #888888;
+
+font-size:115%;
+}
+
+
+
+#three:hover
+{
+background-color:#dc143c;
+color:white;
+box-shadow:5px 5px 5px #888888;
+
+font-size:115%;
+}
+
+
+
+
+#four:hover
+{
+background-color:navy;
+box-shadow:5px 5px 5px #888888;
+color:white;
+
+
+}
+
+a
+{
+
+text-decoration:none;
+
+color:navy;
+}
+
+a:hover{
+color:white;
+
+
+}
+
+
+h3
+{
+font-family:italic;
+}
+
+

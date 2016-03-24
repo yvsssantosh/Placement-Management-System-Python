@@ -1,0 +1,96 @@
+#one{
+background-color:#f8f8f8;
+
+}
+
+
+#regbutton{
+   position:relative;
+   display:inline-block;
+   height:100px;
+   width:100px;
+   border-radius:100%;
+   border:2px solid #a0a0a0;
+   margin-left:5px;
+   margin-top:5px;
+   text-align:center;
+   font-size:10px;
+   color:#ff3333;
+   font-family:bold;
+   
+}
+
+
+#backbutton{
+   position:relative;
+   display:inline-block;
+   height:100px;
+   width:100px;
+   border-radius:100%;
+   border:2px solid #a0a0a0;
+   margin-left:5px;
+   margin-top:5px;
+   text-align:center;
+   font-size:10px;
+   color:navy;
+   font-family:bold;
+   
+}
+
+div p {
+ 
+  position:relative;
+  margin-top:40px;
+ 
+}
+
+
+
+
+
+
+
+
+
+.button{
+ border:2px dashed blue;
+ }
+ 
+ a{
+ text-decoration:none;
+ }
+ 
+ 
+ #backbutton:hover{
+ position:relative;
+   display:inline-block;
+   height:100px;
+   width:100px;
+   border-radius:100%;
+   border:2px solid navy;
+   margin-left:5px;
+   margin-top:5px;
+   text-align:center;
+   background-color:white;
+   font-size:12px;
+   color:navy;
+   }
+
+
+ 
+ #regbutton:hover{
+ position:relative;
+   display:inline-block;
+   height:100px;
+   width:100px;
+   border-radius:100%;
+   border:2px solid #ff3333;
+   margin-left:5px;
+   margin-top:5px;
+   text-align:center;
+   background-color:white;
+   font-size:12px;
+   color:#ff3333;
+   
+   }   
+   

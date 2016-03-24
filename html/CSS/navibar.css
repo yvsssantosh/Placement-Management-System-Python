@@ -1,0 +1,452 @@
+bar{
+z-index:1;
+position:relative;
+padding:5px 5px 5px 5px;
+
+}
+
+
+a{
+color:navy;
+}
+
+
+#home{
+background-color:white;
+font-family:sans-serif;
+font-size:20px;
+margin-left:5px;
+color:white;
+
+
+	-webkit-transition: all 0.1s ease;
+	-moz-transition: all 0.1s ease;
+	-o-transition: all 0.1s ease;
+	transition: all 0.1s ease;
+
+
+}
+
+#home:hover{
+background-color:white;
+font-family:sans-serif;
+border-radius:10%;
+transform:scale(1.1);
+margin-left:5px;
+color:white;
+text-shadow:1px 1px 1px #333;
+
+
+
+	-webkit-transition: all 0.1s ease;
+	-moz-transition: all 0.1s ease;
+	-o-transition: all 0.1s ease;
+	transition: all 0.1s ease;
+
+}
+
+#about{
+background-color:white;
+font-family:sans-serif;
+font-size:20px;
+margin-left:5px;
+
+-webkit-transition: all 0.1s ease;
+	-moz-transition: all 0.1s ease;
+	-o-transition: all 0.1s ease;
+	transition: all 0.1s ease;
+
+
+}
+
+#about:hover{
+background-color:white;
+font-family:sans-serif;
+transform:scale(1.1);
+margin-left:5px;
+color:white;
+text-shadow:1px 1px 1px #333;
+
+
+
+	-webkit-transition: all 0.1s ease;
+	-moz-transition: all 0.1s ease;
+	-o-transition: all 0.1s ease;
+	transition: all 0.1s ease;
+}
+
+a{
+text-decoration:none;
+}
+
+#login
+{background-color:white;
+font-family:sans-serif;
+font-size:20px;
+-webkit-transition: all 0.1s ease;
+	-moz-transition: all 0.1s ease;
+	-o-transition: all 0.1s ease;
+	transition: all 0.1s ease;
+
+
+}
+
+#login:hover{
+background-color:white;
+font-family:sans-serif;
+transform:scale(1.1);
+text-shadow:1px 1px 1px #333;
+
+
+-webkit-transition: all 0.1s ease;
+	-moz-transition: all 0.1s ease;
+	-o-transition: all 0.1s ease;
+	transition: all 0.1s ease;
+
+}
+
+
+
+#bar1{
+ display:inline-block;
+ float:left;
+
+ }
+ 
+#bar2{
+ display:inline-block;
+ float:right;
+ }
+ 
+
+  
+  
+body{
+ background-image:url("../images/8.gif");
+ 
+ }
+  
+
+ 
+ 
+ /* back button CSS starts here!!------------ !! */
+ 
+ 
+ 
+.back {
+	background: #FFF;
+	color: gray;
+	font: bold 15px "Helvetica";
+	padding: 12px;
+	text-decoration: none;
+	margin-left:20px;
+	border:1px solid #a0a0a0;
+
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 3px;
+
+	
+	-webkit-transition: all 0.1s ease;
+	-moz-transition: all 0.1s ease;
+	-o-transition: all 0.1s ease;
+	transition: all 0.1s ease;
+}
+
+.back:after {
+	background: #a0a0a0;
+	color: #FFF;
+	content: "<";
+	display: inline-block;
+	font: bold 11px "Georgia";
+	height: 25px;
+	line-height: 25px;
+	margin-left: 10px;
+	text-align: center;
+	width: 25px;
+	
+	
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+
+.back:hover:after {
+	background: white;
+	color: #0099ff;
+	content: "<";
+	display: inline-block;
+	font: bold 14px "Georgia";
+	height: 25px;
+	line-height: 25px;
+	margin-left: 10px;
+	text-align: center;
+	width: 25px;
+	
+	
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+
+.back:hover {
+	-webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, .25);
+	-moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, .25);
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, .25);
+	
+	background-color:#0099ff;
+	color:white;
+	border:1px solid #0099ff;
+
+	-webkit-transition: all 0.1s ease;
+	-moz-transition: all 0.1s ease;
+	-o-transition: all 0.1s ease;
+	transition: all 0.1s ease;
+}
+
+#letters:hover{
+color:white;
+}
+ 
+ 
+/* back button closes here...!!!! */
+
+
+
+
+/* submit buttons from here.!!! */
+
+
+.negate {
+	background: #FFF;
+	color: gray;
+	font: bold 15px "Helvetica";
+	padding: 12px;
+	text-decoration: none;
+	margin-left:20px;
+	border:1px solid #a0a0a0;
+
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 3px;
+
+	
+	-webkit-transition: all 0.1s ease;
+	-moz-transition: all 0.1s ease;
+	-o-transition: all 0.1s ease;
+	transition: all 0.1s ease;
+}
+
+.negate:after {
+	background: #a0a0a0;
+	color: #FFF;
+	content: "x";
+	display: inline-block;
+	font: bold 11px "Georgia";
+	height: 25px;
+	line-height: 25px;
+	margin-left: 10px;
+	text-align: center;
+	width: 25px;
+	
+	
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+
+.negate:hover:after {
+	background: white;
+	color: #800000;
+	content: "x";
+	display: inline-block;
+	font: bold 14px "Georgia";
+	height: 25px;
+	line-height: 25px;
+	margin-left: 10px;
+	text-align: center;
+	width: 25px;
+	
+	
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+
+.negate:hover {
+	-webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, .25);
+	-moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, .25);
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, .25);
+	
+	background-color:#ff0000;
+	color:white;
+	border:1px solid #ff0000;
+
+	-webkit-transition: all 0.1s ease;
+	-moz-transition: all 0.1s ease;
+	-o-transition: all 0.1s ease;
+	transition: all 0.1s ease;
+}
+
+#letters:hover{
+color:white;
+}
+ 
+
+/* accept buttons */
+ 
+ 
+ .accept {
+	background: #FFF;
+	color: gray;
+	font: bold 15px "Helvetica";
+	padding: 12px;
+	text-decoration: none;
+	margin-left:20px;
+	border:1px solid #a0a0a0;
+
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 3px;
+
+	
+	-webkit-transition: all 0.1s ease;
+	-moz-transition: all 0.1s ease;
+	-o-transition: all 0.1s ease;
+	transition: all 0.1s ease;
+}
+
+.accept:after {
+	background: #a0a0a0;
+	color: #FFF;
+	content: "x";
+	display: inline-block;
+	font: bold 11px "Georgia";
+	height: 25px;
+	line-height: 25px;
+	margin-left: 10px;
+	text-align: center;
+	width: 25px;
+	
+	
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+
+.accept:hover:after {
+	background: white;
+	color: #800000;
+	content: "x";
+	display: inline-block;
+	font: bold 14px "Georgia";
+	height: 25px;
+	line-height: 25px;
+	margin-left: 10px;
+	text-align: center;
+	width: 25px;
+	
+	
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+
+.accept:hover {
+	-webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, .25);
+	-moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, .25);
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, .25);
+	
+	background-color: #00cc00;
+	color:white;
+	border:1px solid #00cc00;
+
+	-webkit-transition: all 0.1s ease;
+	-moz-transition: all 0.1s ease;
+	-o-transition: all 0.1s ease;
+	transition: all 0.1s ease;
+}
+
+#letters:hover{
+color:white;
+}
+  
+  /* submit button */
+
+ .submit {
+	background: #FFF;
+	color: gray;
+	font: bold 15px "Helvetica";
+	padding: 12px;
+	text-decoration: none;
+	margin-left:20px;
+	border:1px solid #a0a0a0;
+
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 3px;
+
+	
+	-webkit-transition: all 0.1s ease;
+	-moz-transition: all 0.1s ease;
+	-o-transition: all 0.1s ease;
+	transition: all 0.1s ease;
+}
+
+.submit:after {
+	background: #a0a0a0;
+	color: #FFF;
+	content: "x";
+	display: inline-block;
+	font: bold 11px "Georgia";
+	height: 25px;
+	line-height: 25px;
+	margin-left: 10px;
+	text-align: center;
+	width: 25px;
+	
+	
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+
+.submit:hover:after {
+	background: white;
+	color: #800000;
+	content: "x";
+	display: inline-block;
+	font: bold 14px "Georgia";
+	height: 25px;
+	line-height: 25px;
+	margin-left: 10px;
+	text-align: center;
+	width: 25px;
+	
+	
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+
+.submit:hover {
+	-webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, .25);
+	-moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, .25);
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, .25);
+	
+	background-color: #a300cc;
+	color:white;
+	border:1px solid #a300cc;
+
+	-webkit-transition: all 0.1s ease;
+	-moz-transition: all 0.1s ease;
+	-o-transition: all 0.1s ease;
+	transition: all 0.1s ease;
+}
+
+#letters:hover{
+color:white;
+}
+  
+
+  

@@ -1,0 +1,363 @@
+.badge1{
+position:relative;
+
+}
+
+
+.calen{
+z-index:1
+border:4px solid #f0f0f0;
+display:inline;
+margin-right:30%;
+float:right;
+
+
+
+
+
+-webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, .25);
+	-moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, .25);
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, .25);
+	
+	
+	
+	
+
+}
+
+.calen:hover{
+
+
+
+}
+
+
+.badge2[data-badge]:after
+{
+
+
+ position:absolute;
+ top:18px;
+ right:10px;
+ font-size:1em;
+ background-color:white;
+ font-family:sans-serif;
+ color:black;
+ width:30%;
+ height:30%;
+ text-align:center;
+ line-height:18px;
+ border-radius:1%;
+ box-shadow:1px 1px 2px #333;
+
+-webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, .25);
+	-moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, .25);
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, .25);
+ }
+ 
+ 
+.badge2[data-badge]:hover:after
+{
+content:attr(data-badge);
+position:absolute;
+ top:35px;
+ right:-50px;
+ font-size:1em;
+background-color:white;
+ font-family:sans-serif;
+ color:black;
+ width:200%;
+ height:200%;
+ text-align:center;
+ line-height:18px;
+ z-index:41;
+ border-radius:1%;
+ box-shadow:1px 1px 2px #333;
+
+
+-webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, .25);
+	-moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, .25);
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, .25);
+	
+ }
+ 
+ .month{
+
+ background-color:#f0f0f0;
+ color:black;
+
+ }
+ 
+ .months{
+ background-color:#f0f0f0;
+ 
+ }
+
+ 
+.mon.days{
+ background-color: red;
+ color:white;
+ }
+ .tue.days{
+ background-color:red;
+  color:white;
+ }
+ .wed.days{
+  color:white;
+ background-color:red;
+ }
+ .thu.days{
+  color:white;
+ background-color: red;
+ }
+ .fri.days{
+  color:white;
+ background-color: red;
+ }
+ .sat.days{
+  color:white;
+ background-color:red;
+ }
+ 
+ .sun.days{
+  color:white;
+ background-color: red;
+ 
+ }
+
+ 
+ .sat.block{
+ background-color:red;
+ color:white;
+ 
+ -webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+ 
+ }
+ 
+ .mon.block{
+ background-color:red;
+ color:white;
+ 
+ -webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+ }
+ 
+ .tue.block{
+ background-color:red;
+ color:white;
+ 
+ -webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+ }
+ 
+ .wed.block{
+ background-color:red;
+ color:white;
+ 
+ -webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+ }
+ 
+ .thu.block{
+ background-color:red;
+ color:white;
+ 
+ -webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+ }
+ 
+ .fri.block{
+ background-color:red;
+ color:white;
+ 
+ -webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+ 
+ 
+ }
+ 
+ .sun.block{
+ background-color:red;
+ color:white;
+ 
+ -webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+		
+ }
+ 
+ 
+ 
+  .sat.block:hover{
+ background-color:white;
+ color:red;
+ -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, .25);
+	-moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, .25);
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, .25);
+	
+	transform:scale(3);
+	
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	
+	z-index:40;
+	
+	
+	
+ 
+ }
+ 
+ .mon.block:hover{
+ background-color:white;
+ color:red;
+ transform:scale(3);
+ -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, .25);
+	-moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, .25);
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, .25);
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+		z-index:40;
+	
+	
+ }
+ 
+ .tue.block:hover{
+ background-color:white;
+ color:red;
+ transform:scale(3);
+ -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, .25);
+	-moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, .25);
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, .25);
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+		z-index:40;
+	
+
+ }
+ 
+ .wed.block:hover{
+ background-color:white;
+ color:red;
+ transform:scale(3);
+ -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, .25);
+	-moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, .25);
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, .25);
+	
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+		z-index:40;
+	
+	
+	
+ }
+ 
+ .thu.block:hover{
+ background-color:white;
+ color:red;
+ transform:scale(3);
+ -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, .25);
+	-moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, .25);
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, .25);
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+		z-index:40;
+	
+	
+ }
+ 
+ .fri.block:hover{
+ background-color:white;
+ color:red;
+ transform:scale(3);
+ -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, .25);
+	-moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, .25);
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, .25);
+-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	
+	z-index:40;
+	
+	
+ 
+ 
+ }
+ 
+ .sun.block:hover{
+ background-color:white;
+ color:red;
+transform:scale(3);
+ -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, .25);
+	-moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, .25);
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, .25);
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+		z-index:40;
+	
+	
+ }
+ 
+ 
+ .mon{
+ background-color:#f0f0f0;
+ 
+ }
+ 
+ .tue{
+ background-color:#f0f0f0;
+ }
+ 
+ .sat{
+ background-color:#f0f0f0;
+ }
+ 
+  .wed{
+ background-color:#f0f0f0;
+ 
+ }
+ 
+ .thu{
+ background-color:#f0f0f0;
+ }
+ 
+ .fri{
+ background-color:#f0f0f0;
+ }
+ 
+  .sat{
+ background-color:#f0f0f0;
+ }
+ 
+  .sun{
+ background-color:#f0f0f0;
+ }
+ 
+ 
+ 
